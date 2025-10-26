@@ -30,13 +30,21 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Gammahill", url: DEFAULT_URL }],
   icons: {
-    icon: "/favicon.ico",
+    icon: "/images/icon.png",
   },
   openGraph: {
     title: "Gammahill",
     description: "Gammahill — end-to-end software product development",
     url: DEFAULT_URL,
     siteName: "Gammahill",
+    images: [
+      {
+        url: "/images/gammahill.png",
+        width: 1200,
+        height: 630,
+        alt: "Gammahill Open Graph Image",
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
@@ -45,6 +53,14 @@ export const metadata: Metadata = {
     title: "Gammahill",
     description: "Gammahill — end-to-end software product development",
     creator: "@gammahill",
+    images: [
+      {
+        url: "/images/gammahill.png",
+        width: 1200,
+        height: 630,
+        alt: "Gammahill Open Graph Image",
+      },
+    ],
   },
   robots: {
     index: true,

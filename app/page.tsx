@@ -71,20 +71,20 @@ export default function Home() {
               <div className="space-y-3 sm:space-y-2">
                 {/* <div className="text-sm text-muted-foreground font-mono tracking-wider">HOME</div> */}
                 <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extralight tracking-tight">
-                  From <span className="text-muted-foreground">Ideas</span> into <br />
-                  <span className="text-muted-foreground">Scalable</span> products.
+                  From <span className="text-main">Ideas</span> into <span className="text-main">Scalable</span> products.
+                  
                 </h1>
               </div>
 
-              <div className="space-y-6 max-w-lg">
+              <div className="space-y-6 max-w-xl">
                 <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
                   We partner with businesses, individuals and startups to <span className="text-foreground">deliver</span> end-to-end
-                  software product development; from concept to launch.
+                  software product development from <span className="text-foreground">concept</span> to <span className="text-foreground">launch</span>.
                 </p>
 
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 text-sm text-muted-foreground">
                   <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                    <div className="w-2 h-2 bg-main rounded-full animate-pulse"></div>
                     United Kingdom | Nigeria
                   </div>
                 </div>
