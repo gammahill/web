@@ -102,7 +102,7 @@ export default function Home() {
           <div className="space-y-12 sm:space-y-16">
             <h2 className="text-3xl sm:text-4xl font-light">Portfolio</h2>
 
-            <div className="grid gap-6 sm:gap-8 lg:grid-cols-2">
+            <div className="grid gap-6 sm:gap-8 lg:grid-cols-1">
               {[
                 {
                   title: "Pinavel",
@@ -115,12 +115,6 @@ export default function Home() {
                   excerpt: "An intelligence platform that streamlines renewable energy asset evaluation and acquisition.",
                   date: "March 2025",
                   url: "https://kanu.energy"
-                },
-                {
-                  title: "Gammahill",
-                  excerpt: "A hub for incubating innovative solutions in the ecommerce, finance and creative industry.",
-                  date: "April 2023",
-                  url: "https://gammahill.com"
                 },
                 {
                   title: "Eloquent Data",
