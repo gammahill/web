@@ -29,7 +29,7 @@ export function Navigation({ isDark, toggleTheme }: NavigationProps) {
       <div className="max-w-6xl mx-auto mt-6 px-6 sm:px-8 lg:px-16">
         <div className="flex items-center justify-between h-16">
           <div onClick={() => scrollToSection("home")}>
-            <Image src={isDark ? "/images/logo-light.png" : "/images/logo-dark.png"} alt="Logo" width={180} height={33} />
+            <Image src="/images/logo.png" alt="Logo" width={180} height={33} />
           </div>
 
           {/* Desktop Navigation */}
