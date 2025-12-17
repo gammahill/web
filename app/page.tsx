@@ -85,7 +85,7 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 text-sm text-muted-foreground">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-main rounded-full animate-pulse"></div>
-                    United Kingdom | Nigeria
+                    United Kingdom
                   </div>
                 </div>
               </div>
